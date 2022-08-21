@@ -5,6 +5,11 @@
 [![Docker Image size](https://img.shields.io/docker/image-size/vanopiano/tg.svg?sort=date)](https://hub.docker.com/r/vanopiano/tg/tags)
 [![Docker Pulls](https://img.shields.io/docker/pulls/vanopiano/tg.svg)](https://hub.docker.com/r/vanopiano/tg)
 
+Usage with docker:
+```sh
+docker run --rm -v ~/.telegram-cli:/root/.telegram-cli telegram-cli -W -e "msg peer text"
+```
+
 Command-line interface for [Telegram](http://telegram.org). Uses readline interface.
 
 ### API, Protocol documentation
