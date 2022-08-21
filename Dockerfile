@@ -1,5 +1,5 @@
 FROM ubuntu:18.04 AS build
-RUN apt update && DEBIAN_FRONTEND=noninteractive apt -y install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson-dev libpython2-dev make zlib1g-dev libgcrypt20-dev git python2
+RUN apt update && DEBIAN_FRONTEND=noninteractive apt -y install libssl1.1-dev libreadline-dev libconfig-dev lua5.2 liblua5.2-dev libevent-dev libjansson-dev libpython-dev make zlib1g-dev libgcrypt20-dev git
 
 WORKDIR /data
 # Original:
