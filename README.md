@@ -1,5 +1,10 @@
 ## Telegram messenger CLI [![Build Status](https://travis-ci.org/vysheng/tg.png)](https://travis-ci.org/vysheng/tg)
 
+[![Docker Image](https://github.com/ivan-leschinsky/tg-cli/actions/workflows/docker_image.yml/badge.svg)](https://github.com/ivan-leschinsky/tg-cli/actions/workflows/docker_image.yml)
+[![Docker latest version](https://img.shields.io/docker/v/vanopiano/tg.svg?sort=semver&color=success)](https://hub.docker.com/r/vanopiano/tg)
+[![Docker Image size](https://img.shields.io/docker/image-size/vanopiano/tg.svg?sort=date)](https://hub.docker.com/r/vanopiano/tg/tags)
+[![Docker Pulls](https://img.shields.io/docker/pulls/vanopiano/tg.svg)](https://hub.docker.com/r/vanopiano/tg)
+
 Command-line interface for [Telegram](http://telegram.org). Uses readline interface.
 
 ### API, Protocol documentation
